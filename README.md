@@ -32,15 +32,18 @@ A kód ezután automatikusan megkeresi az adott középpontokhoz tartozó **legt
    ```matlab
    filename = 'kepnev.tif';
 2.Futtasd a szkriptet MATLAB-ban.
+
 3.Az első ablakban:
  -Jelölj ki egy téglalapot a vizsgálandó terület köré.
  -Dupla kattintással zárd le a kijelölést.
+ 
 5.A kód ezután:
  -binarizál,
  -kiválasztja az ROI-n belüli komponenst,
  -meghatározza a legtávolabbi fehér pontot,
  -kiszámolja a sugarat (R) pixelben,
  -mindent kiír a Command Window-ba.
+ 
 6.A harmadik ábra:
  -piros kör: középpontok,
  -cián kör: legtávolabbi fehér pontok,
